@@ -71,6 +71,11 @@ Components:
 
 
 # Stationarity:  `means that the statistical properties of the series—like the mean, variance, and autocorrelation—remain constant over time. Stationarity means that the series behaves the same way over time, with no trends or seasonal patterns that change the overall structure of the data.`
+
+* Constant mean: The average value stays roughly the same throughout the series.
+* Constant variance: The size of fluctuations (ups and downs) remains consistent.
+* Constant autocorrelation: The relationship between a value and its previous values remains consistent.
+
 * `Dickey-Fuller (ADF) test is used to check if its stationary`
   ![image](https://github.com/user-attachments/assets/d597e36c-7ee2-4e8e-a4c9-35ee0643d142)
   ![image](https://github.com/user-attachments/assets/f20c8873-ad12-4cfc-b501-1dfe154da4f5)
