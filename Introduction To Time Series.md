@@ -1,7 +1,11 @@
-![image](https://github.com/user-attachments/assets/8ca769c2-a896-498d-bee8-a61803978258)Frequency:
+![image](https://github.com/user-attachments/assets/8ca769c2-a896-498d-bee8-a61803978258)
+
+**Frequency:**
+* refers to how often data points are collected in a time series. It specifies the interval between consecutive observations.
 ![image](https://github.com/user-attachments/assets/b06b901e-76f8-4c49-943b-c20b300cbdaf)
 
-Horizon:
+**Horizon:**
+* refers to the number of future time steps for which predictions are being made. It defines how far ahead in the future you are forecasting.
 ![image](https://github.com/user-attachments/assets/e1b02408-5ab3-484e-a7cf-cb1cfabcf895)
 
 
@@ -29,14 +33,19 @@ Components:
 
 * Trend: the above time series has an increasing trend.
 
-* Seasonality: Cycle or pattern that repeats over time (periodically)
+* Seasonality: Cycle or pattern that repeats over time (periodically)  (e.g., daily, weekly, monthly, yearly)
   Example: Ice cream sales
 ![image](https://github.com/user-attachments/assets/f79bca7b-0847-427a-bc47-ad2b8a37dd82)
+
+* Cyclicity: refers to patterns that occur over long, irregular intervals. Unlike seasonality, cyclic patterns don't have a fixed or predictable frequency. These cycles are often driven by economic or business conditions and can last for several years.
 
 * Noise: if we subtract trend and seasonality/cyclicity, we get noise (these are random fluctuations)
 
 
 # Additive And Multiplicative Nature of Time Series:
+* In an additive model, the components of the time series (trend, seasonality, and noise) are added together:
+* In a multiplicative model, the components of the time series are multiplied:
+
 ![image](https://github.com/user-attachments/assets/a378f7b4-d623-42ee-abde-d71b501e8a27)
 
 * If the seasonal patterns or trends are consistent and don’t change with the level of the time series, go with **additive**.
@@ -49,6 +58,13 @@ Components:
 ![image](https://github.com/user-attachments/assets/66c23db6-e631-4e6b-9fb5-6eb9b85ef33b)
 
 * So yes, if the base level of the series stays the same, additive is usually a good choice. If the base level changes and you see proportional changes in the components, then multiplicative is more appropriate.
+
+
+**What Happens If the Wrong Model is Used:**
+* If you apply an additive model to data that follows a multiplicative pattern, the noise may exhibit some structure or pattern (not just centered around zero). This can be due to the fact that the model fails to capture the proportional change in the seasonal and trend components.
+
+* As you mentioned, in a multiplicative model, the noise typically fluctuates around 1, but if the wrong model is used (like additive for multiplicative data), you'll observe patterns in the residuals that shouldn't be there, as shown in the residual plot. The noise in the residuals will not be purely random anymore, but might show a systematic pattern.
+
 
 * `if we plot additive TS as multiplicative, there might be a pattern in the noise (As we know, noise can either 0 or 1) but here it has a pattern and values other than 0 and 1`
 ![image](https://github.com/user-attachments/assets/3b0c3c4d-2559-4f0d-86ea-e841d5d80658)
