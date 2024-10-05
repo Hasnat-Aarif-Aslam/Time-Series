@@ -123,7 +123,7 @@ Components:
 
 * **`Differencing removes overall trends (e.g., increasing or decreasing over time).`**
 
-* **`Seasonal Differencing removes seasonal patterns (e.g., repeating every 12 months).`**
+* **`Seasonal Differencing removes seasonal patterns (e.g., repeating every 12 months). You subtract the current value from the value from the same season in the previous cycle [E.x: subtract this January’s value from last January’s value).]`**
 ![{4F47EC7A-E71F-462B-A0AD-37948C448D3A}](https://github.com/user-attachments/assets/62301e5b-c36b-48f2-8844-c625c550d5ef)
 
 
