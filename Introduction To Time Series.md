@@ -121,6 +121,10 @@ Components:
 * `SOME OTHER TECHNIQUES TO MAKE NON-STATIONARY, STATIONARY`
 ![image](https://github.com/user-attachments/assets/e26c9665-a020-41e6-b38e-ff625de2ec6f)
 
+* **`Differencing removes overall trends (e.g., increasing or decreasing over time).`**
+
+* **`Seasonal Differencing removes seasonal patterns (e.g., repeating every 12 months).`**
+
 
 # lAGS:
 * lag refers to the delay between an observed data point and its preceding values.
