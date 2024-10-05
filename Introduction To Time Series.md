@@ -171,7 +171,6 @@ Components:
 
 
 
-
 # AR and MA
 ![image](https://github.com/user-attachments/assets/3438a84c-7131-4e42-993d-f859e03ea3ce)
 
