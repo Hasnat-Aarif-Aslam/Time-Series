@@ -150,6 +150,7 @@ Components:
 ![image](https://github.com/user-attachments/assets/2b5ea2aa-7e4d-4847-8d77-b28058dc9ed0)
 
 ![{D0A303DF-6061-4F20-9758-67FA14320DAF}](https://github.com/user-attachments/assets/b886154a-faa8-4de5-a79d-d27ba42b9244)
+* `(ARMA for stationary series, ARIMA for non-stationary series)`
 
 
 
