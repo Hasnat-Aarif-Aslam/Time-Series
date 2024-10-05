@@ -157,6 +157,10 @@ Components:
 * If PACF decays geometrically → It's an MA process. Check the ACF for the number of lags (q).
 
 * `(ARMA for stationary series, ARIMA for non-stationary series)`
+  
+* **If your series is already stationary: Use ARMA.**
+  
+* **If your series is non-stationary and you don't want to manually make it stationary: Use ARIMA, as it will automatically apply differencing to make the series stationary.**
 
 
 
