@@ -163,6 +163,14 @@ Components:
 * **If your series is non-stationary and you don't want to manually make it stationary: Use ARIMA, as it will automatically apply differencing to make the series stationary.**
 
 
+* **ARIMA (p,q,d):**
+![{7F15A5F7-2F38-4932-B496-8BB60836094D}](https://github.com/user-attachments/assets/d191c088-1e01-4172-938c-625a393f751e)
+
+* **`AR uses past observations to predict the future.`**
+* **`MA uses past prediction errors to improve future predictions.`**
+
+
+
 
 # AR and MA
 ![image](https://github.com/user-attachments/assets/3438a84c-7131-4e42-993d-f859e03ea3ce)
