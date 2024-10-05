@@ -102,6 +102,8 @@ Components:
 
 
 # Differencing:  
+* We use differencing to make a time series stationary because many time series models, like ARIMA, require stationarity to make accurate predictions.
+
 `technique used in time series analysis to make a time series stationary, which means removing trends or seasonality. The idea is to subtract the previous value in the series from the current value. This helps to remove patterns that make the series non-stationary.`
 
 * First-Order Differencing:
@@ -121,6 +123,11 @@ Components:
 
 
 # lAGS:
+* lag refers to the delay between an observed data point and its preceding values.
+![{EB75BCB7-33FB-44EE-A745-8C713CC9680D}](https://github.com/user-attachments/assets/9f998765-dbf2-427f-a2c3-d2db401ed66a)
+![{C24A97B1-A62D-46C0-8718-419769618DDD}](https://github.com/user-attachments/assets/774c91ba-24af-431c-ab14-4d9ab37b8555)
+
+
 ![image](https://github.com/user-attachments/assets/2b0aac7f-4399-42be-92b3-d8466b4f9039)
 
 `This is how we do lags, the values says that 40 is influnced by 20(WITH SOME CONSTANT) + 10(WITH SOME CONSTANT)`
