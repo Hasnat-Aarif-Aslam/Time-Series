@@ -159,9 +159,9 @@ Components:
 ![{D0A303DF-6061-4F20-9758-67FA14320DAF}](https://github.com/user-attachments/assets/b886154a-faa8-4de5-a79d-d27ba42b9244)
 
 * **ANOTHER WAY TO IDENTIFY**
-* If ACF decays geometrically → It's an AR process. Check the PACF for the number of lags (p).
+* If ACF decays geometrically → It's an AR process. Check the PACF for the number of lags (AR Terms--> p).
 
-* If PACF decays geometrically → It's an MA process. Check the ACF for the number of lags (q).
+* If PACF decays geometrically → It's an MA process. Check the ACF for the number of lags (MA Terms--> q).
 
 * `(ARMA for stationary series, ARIMA for non-stationary series)`
   
